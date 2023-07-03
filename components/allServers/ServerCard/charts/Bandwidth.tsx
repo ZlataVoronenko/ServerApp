@@ -49,7 +49,7 @@ const Bandwidth = ({ serverData }) => {
             zoom: {
                 pan: {
                     enabled: true,
-                    mode: 'xy',
+                    mode: 'xy' as Mode,
                 },
                 zoom: {
                     mode: 'xy',
