@@ -10,7 +10,7 @@ import Overview from '@/components/allServers/Dashboard/overview/Overview';
 import MainStates from '@/components/allServers/Dashboard/mainStates/MainStates';
 import styles from './ServerPage.module.css';
 
-const API_URL = 'http://95.163.210.201:9100/metrics';
+const API_URL = 'https://demo.webrtc-test.bitrix.info/metrics';
 
 
 const ServerPage = ({ serversData }) => {

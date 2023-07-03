@@ -3,7 +3,7 @@ import ServerPage from './ServerPage/ServerPage';
 import { useSelector, useDispatch } from 'react-redux';
 import { receiveServerData } from '@/state/actions/serverDataActions';
 
-const API_URL = 'http://95.163.210.201:9100/metrics';
+const API_URL = 'https://demo.webrtc-test.bitrix.info/metrics';
 
 const ServicesContainer = () => {
     const [historicData, setHistoricData] = useState([]);
