@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Line } from 'react-chartjs-2';
 import { Plugin, Chart, Title, Tooltip, Legend } from 'chart.js';
 import { Filler } from "chart.js";
+import { Mode } from "chartjs-plugin-zoom/types/options";
 
 import {
     CategoryScale,
