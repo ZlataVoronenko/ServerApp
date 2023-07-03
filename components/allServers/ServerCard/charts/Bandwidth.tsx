@@ -40,7 +40,7 @@ const Bandwidth = ({ serverData }) => {
 
         plugins: {
             legend: {
-                position: 'top',
+                position: 'top' as 'top',
             },
             title: {
                 display: true,
