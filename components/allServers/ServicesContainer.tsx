@@ -3,7 +3,7 @@ import ServerPage from './ServerPage/ServerPage';
 import { useSelector, useDispatch } from 'react-redux';
 import { receiveServerData } from '@/state/actions/serverDataActions';
 
-const API_URL = process.env.API_URL;
+const API_URL = 'http://95.163.210.201:9100/metrics';
 
 const ServicesContainer = () => {
     const [historicData, setHistoricData] = useState([]);
