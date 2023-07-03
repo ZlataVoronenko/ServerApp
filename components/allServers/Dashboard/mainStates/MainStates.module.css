@@ -1,0 +1,60 @@
+.cardCenter{
+    align-self: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.card{
+    margin: 0px 0 50px 0;
+    padding: 15px 15px 15px 15px;
+    min-height: 150px;
+    background: rgba(228, 219, 219, 0.5);
+    border-radius: 10px;
+}
+
+.title{
+    flex-grow: 1;
+        /* background: #838796; border-radius: 15px;*/
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.flex{
+    display: flex;
+}
+
+.itemRooms{
+    min-width: 70px;
+    min-height: 70px;
+    font-size: 18px;
+    flex-grow: 1;
+        background: #6ead90; 
+        border-radius: 15px;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.itemUsers{
+        min-width: 70px;
+    min-height: 70px;
+        font-size: 18px;
+    flex-grow: 1;
+        background: #726ed8; 
+        border-radius: 15px;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.itemErrors{
+        min-width: 70px;
+    min-height: 70px;
+        font-size: 18px;
+    flex-grow: 1;
+        background: #d67979; 
+        border-radius: 15px;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}

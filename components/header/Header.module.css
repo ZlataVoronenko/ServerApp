@@ -1,0 +1,32 @@
+.navbar {
+    background: #325F81;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.link{
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        margin: 15px;
+}
+
+.logo{
+    background: #65BCC3;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin: 15px;
+}

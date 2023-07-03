@@ -1,0 +1,35 @@
+.wrapper{
+    margin: 30px 0 0 0;
+    width: 100vw;
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer{
+    background: rgba(228, 219, 219, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0px 0px 50px 0px;
+}
+
+.flexItem{
+    width: 1350px;
+    min-height: 400px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chartFlex{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 40px 0px;
+}

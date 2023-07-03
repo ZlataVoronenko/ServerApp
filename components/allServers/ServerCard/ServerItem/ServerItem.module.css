@@ -1,0 +1,40 @@
+.card{
+    padding: 15px;
+    height: 150px;
+    background: rgba(228, 219, 219, 0.5);
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.title{
+    flex-grow: 1;
+    padding: 10px 10px 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subtitle{
+    font-size: 18px;
+    flex-grow: 1;
+    padding: 0px 10px 5px 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+}
+
+.btnsFlex{
+    padding: 15px;
+    height: 150px;
+    background: rgba(228, 219, 219, 0.5);
+    border-radius: 10px;
+}
+.btn{
+    flex-grow: 1;
+    padding: 0px 10px 5px 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    font-size: 16px;
+}
