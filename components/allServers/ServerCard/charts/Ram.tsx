@@ -9,6 +9,7 @@ import {
     PointElement,
     LineElement,
 } from 'chart.js';
+import { Mode } from "chartjs-plugin-zoom/types/options";
 
 Chart.register(
     CategoryScale,
@@ -40,7 +41,7 @@ const Ram = ({serverData}) => {
 
         plugins: {
             legend: {
-                position: 'top',
+                position: 'top' as 'top',
             },
             title: {
                 display: true,
@@ -50,11 +51,11 @@ const Ram = ({serverData}) => {
             zoom: {
                 pan: {
                     enabled: true,
-                    mode: 'xy',
+                    mode: 'xy' as Mode,
                 },
                 zoom: {
-                    mode: 'xy',
-                    scaleMode: 'xy',
+                    mode: 'xy' as Mode,
+                    scaleMode: 'xy' as Mode,
                     wheel: {
                         enabled: true
                     }
