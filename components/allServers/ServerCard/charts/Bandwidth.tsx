@@ -53,7 +53,7 @@ const Bandwidth = ({ serverData }) => {
                     mode: 'xy' as Mode,
                 },
                 zoom: {
-                    mode: 'xy',
+                    mode: 'xy' as Mode,
                     scaleMode: 'xy',
                     wheel: {
                         enabled: true
